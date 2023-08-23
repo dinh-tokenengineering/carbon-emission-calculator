@@ -1,4 +1,4 @@
-import streamlit as st
+ơimport streamlit as st
 
 # Define emission factors (example values, replace with accurate data)
 EMISSION_FACTORS = {
@@ -11,10 +11,10 @@ EMISSION_FACTORS = {
 }
 
 # Set wide layout and page name
-st.set_page_config(layout="wide", page_title="Personal Carbon Calculator By Arbor")
+st.set_page_config(layout="wide", page_title="Personal Carbon Calculator - Empowered By Arbor")
 
 # Streamlit app code
-st.title("Personal Carbon Calculator App ⚠️")
+st.title("Personal Carbon Calculator App 🌳")
 
 # User inputs
 st.subheader("🌍 Your Country")
@@ -81,5 +81,5 @@ if st.button("Calculate CO2 Emissions"):
     with col4:
         st.subheader("Total Carbon Footprint")
         st.success(f"🌍 Your total carbon footprint is: {total_emissions} tonnes CO2 per year")
-        st.warning(f" A typical tree can absorb around 21 kilograms of carbon dioxide (CO2) per year, however this figure is only achieved when the tree is fully grown. To reach the net-zero emissions, you have to plant {total_tree} trees")
+        st.warning(f" A typical tree can absorb around 21 kilograms of carbon dioxide (CO2) per year, however this figure is only achieved when the tree is fully grown. To reach the net-zero emissions, you have to plant {total_tree} trees. Visit arborsolution.earth for more information")
 
