@@ -27,7 +27,7 @@ with col1:
     distance = st.slider("Distance", 0.0, 100.0, key="distance_input")
 
     st.subheader("💡 Monthly electricity consumption (in VND)")
-    electricity = st.slider("Electricity", 0.0, 3,000,000.0, key="electricity_input")
+    electricity = st.slider("Electricity", 0.0, 2000000.0, key="electricity_input")
 
 with col2:
     # st.subheader("🍽️ Waste generated per week (in kg)")
