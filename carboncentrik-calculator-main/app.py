@@ -1,4 +1,4 @@
-ơimport streamlit as st
+import streamlit as st
 
 # Define emission factors (example values, replace with accurate data)
 EMISSION_FACTORS = {
