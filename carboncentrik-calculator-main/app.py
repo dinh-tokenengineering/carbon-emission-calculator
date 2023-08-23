@@ -81,5 +81,5 @@ if st.button("Calculate CO2 Emissions"):
     with col4:
         st.subheader("Total Carbon Footprint")
         st.success(f"🌍 Your total carbon footprint is: {total_emissions} tonnes CO2 per year")
-        st.warning(f" A typical tree can absorb around 21 kilograms of carbon dioxide (CO2) per year, however this figure is only achieved when the tree is fully grown. To reach the net-zero emissions, you have to plant {total_tree} trees. Visit <a href="arborsolution.earth">Arborsolution.earth</a> for more information")
+        st.warning(f" A typical tree can absorb around 21 kilograms of carbon dioxide (CO2) per year, however this figure is only achieved when the tree is fully grown. To reach the net-zero emissions, you have to plant {total_tree} trees. Visit <a href="https://www.w3schools.com/">Arborsolution.earth</a> for more information")
 
