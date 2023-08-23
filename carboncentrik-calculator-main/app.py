@@ -2,7 +2,7 @@ import streamlit as st
 
 # Define emission factors (example values, replace with accurate data)
 EMISSION_FACTORS = {
-    "India": {
+    "Vietnam": {
         "Transportation": 0.14,  # kgCO2/km
         "Electricity": 0.82,  # kgCO2/kWh
         "Diet": 1.25,  # kgCO2/meal, 2.5kgco2/kg
@@ -18,7 +18,7 @@ st.title("Personal Carbon Calculator App ⚠️")
 
 # User inputs
 st.subheader("🌍 Your Country")
-country = st.selectbox("Select", ["VIETNAM"])
+country = st.selectbox("Select", ["Vietnam"])
 
 col1, col2 = st.columns(2)
 
