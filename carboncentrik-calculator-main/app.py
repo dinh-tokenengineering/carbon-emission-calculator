@@ -62,7 +62,7 @@ waste_emissions = round(waste_emissions / 1000, 2)
 total_emissions = round(
     transportation_emissions + electricity_emissions + diet_emissions + waste_emissions, 2
 )
-total_tree = total_emissions*1000/25
+total_tree = round(total_emissions*1000/25)
 
 if st.button("Calculate CO2 Emissions"):
 
